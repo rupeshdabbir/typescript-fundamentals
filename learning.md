@@ -27,3 +27,6 @@ function contactPeople(
   method: "email" | "phone",
   ...people: (HasEmail | HasPhoneNumber)[]
 ): void {
+
+- Interfaces extend interfaces (just like classes extend classes)
+- 
